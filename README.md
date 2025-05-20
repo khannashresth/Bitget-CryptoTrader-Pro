@@ -22,7 +22,7 @@ A professional cryptocurrency trading bot that implements automated trading stra
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/bitget-cryptotrader-pro.git
+git clone https://github.com/khannashresth/bitget-cryptotrader-pro.git
 cd bitget-cryptotrader-pro
 ```
 
