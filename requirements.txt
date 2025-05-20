@@ -1,0 +1,47 @@
+# Core dependencies
+numpy>=1.21.0
+pandas>=1.5.0
+yfinance>=0.2.0
+alpaca-trade-api>=2.3.0
+python-binance>=1.0.15
+ccxt>=4.0.0
+
+# Data processing and analysis
+scikit-learn>=1.0.0
+ta>=0.10.0  # Technical analysis library
+statsmodels>=0.13.0
+
+# Machine Learning
+xgboost>=1.5.0
+tensorflow>=2.8.0
+keras>=2.8.0
+
+# Backtesting
+backtrader>=1.9.76.123
+
+# API and Web
+fastapi>=0.68.0
+uvicorn>=0.15.0
+websockets>=10.0
+
+# Database
+sqlalchemy>=1.4.0
+psycopg2-binary>=2.9.0
+
+# Monitoring and Logging
+python-telegram-bot>=13.7
+APScheduler>=3.8.0
+
+# Development
+jupyter>=1.0.0
+pytest>=6.2.5
+black>=21.7b0
+flake8>=3.9.0
+
+# Added from the code block
+streamlit>=1.22.0
+plotly>=5.13.0
+pyyaml>=6.0
+python-dotenv>=1.0.0
+requests>=2.28.0
+joblib>=1.2.0 

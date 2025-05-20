@@ -1,0 +1,31 @@
+api:
+  api_key: "YOUR_API_KEY"
+  api_secret: "YOUR_API_SECRET"
+  passphrase: "YOUR_PASSPHRASE"
+  testnet: true
+  demo_trading: true
+
+trading:
+  trading_pairs:
+    - "BTC/USDT"
+    - "ETH/USDT"
+    - "SOL/USDT"
+  timeframe: "1h"
+  update_interval: 60  # seconds
+  initial_balance: 10000.0  # USDT
+
+strategy:
+  name: "technical"
+  parameters:
+    rsi_period: 14
+    rsi_overbought: 70
+    rsi_oversold: 30
+    macd_fast: 12
+    macd_slow: 26
+    macd_signal: 9
+
+risk:
+  max_position_size: 0.1  # 10% of portfolio
+  max_drawdown: 0.2  # 20% max drawdown
+  stop_loss_pct: 0.02  # 2% stop loss
+  take_profit_pct: 0.04  # 4% take profit 
